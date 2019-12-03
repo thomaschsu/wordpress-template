@@ -92,3 +92,10 @@ Stack trace:
 [02-Dec-2019 20:44:01 UTC] PHP   3. require_once() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-blog-header.php:19
 [02-Dec-2019 20:44:01 UTC] PHP   4. include() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\template-loader.php:98
 [03-Dec-2019 16:57:22 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\page.php on line 28
+[03-Dec-2019 21:03:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function the_category_list() in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\index.php:20
+Stack trace:
+#0 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-blog-header.php(19): require_once('C:\\Users\\solid\\...')
+#2 C:\Users\solid\Local Sites\wordpress-template\app\public\index.php(17): require('C:\\Users\\solid\\...')
+#3 {main}
+  thrown in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\index.php on line 20
