@@ -99,3 +99,41 @@ Stack trace:
 #2 C:\Users\solid\Local Sites\wordpress-template\app\public\index.php(17): require('C:\\Users\\solid\\...')
 #3 {main}
   thrown in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\index.php on line 20
+[04-Dec-2019 20:12:28 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_post_types' not found or invalid function name in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php on line 288
+[04-Dec-2019 20:12:28 UTC] PHP Stack trace:
+[04-Dec-2019 20:12:28 UTC] PHP   1. {main}() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\edit.php:0
+[04-Dec-2019 20:12:28 UTC] PHP   2. require_once() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\edit.php:10
+[04-Dec-2019 20:12:28 UTC] PHP   3. require_once() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\admin.php:34
+[04-Dec-2019 20:12:28 UTC] PHP   4. require_once() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-load.php:37
+[04-Dec-2019 20:12:28 UTC] PHP   5. require_once() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-config.php:77
+[04-Dec-2019 20:12:28 UTC] PHP   6. do_action() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-settings.php:523
+[04-Dec-2019 20:12:28 UTC] PHP   7. WP_Hook->do_action() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\plugin.php:478
+[04-Dec-2019 20:12:28 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php:312
+[04-Dec-2019 20:12:29 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_post_types' not found or invalid function name in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php on line 288
+[04-Dec-2019 20:12:29 UTC] PHP Stack trace:
+[04-Dec-2019 20:12:29 UTC] PHP   1. {main}() C:\Users\solid\Local Sites\wordpress-template\app\public\index.php:0
+[04-Dec-2019 20:12:29 UTC] PHP   2. require() C:\Users\solid\Local Sites\wordpress-template\app\public\index.php:17
+[04-Dec-2019 20:12:29 UTC] PHP   3. require_once() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-blog-header.php:13
+[04-Dec-2019 20:12:29 UTC] PHP   4. require_once() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-load.php:37
+[04-Dec-2019 20:12:29 UTC] PHP   5. require_once() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-config.php:77
+[04-Dec-2019 20:12:29 UTC] PHP   6. do_action() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-settings.php:523
+[04-Dec-2019 20:12:29 UTC] PHP   7. WP_Hook->do_action() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\plugin.php:478
+[04-Dec-2019 20:12:29 UTC] PHP   8. WP_Hook->apply_filters() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php:312
+[04-Dec-2019 20:12:29 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_post_types' not found or invalid function name in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php on line 288
+[04-Dec-2019 20:12:29 UTC] PHP Stack trace:
+[04-Dec-2019 20:12:29 UTC] PHP   1. {main}() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\admin-ajax.php:0
+[04-Dec-2019 20:12:29 UTC] PHP   2. require_once() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\admin-ajax.php:22
+[04-Dec-2019 20:12:29 UTC] PHP   3. require_once() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-load.php:37
+[04-Dec-2019 20:12:29 UTC] PHP   4. require_once() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-config.php:77
+[04-Dec-2019 20:12:29 UTC] PHP   5. do_action() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-settings.php:523
+[04-Dec-2019 20:12:29 UTC] PHP   6. WP_Hook->do_action() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\plugin.php:478
+[04-Dec-2019 20:12:29 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php:312
+[04-Dec-2019 20:12:44 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_post_types' not found or invalid function name in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php on line 288
+[04-Dec-2019 20:12:44 UTC] PHP Stack trace:
+[04-Dec-2019 20:12:44 UTC] PHP   1. {main}() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\admin-ajax.php:0
+[04-Dec-2019 20:12:44 UTC] PHP   2. require_once() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\admin-ajax.php:22
+[04-Dec-2019 20:12:44 UTC] PHP   3. require_once() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-load.php:37
+[04-Dec-2019 20:12:44 UTC] PHP   4. require_once() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-config.php:77
+[04-Dec-2019 20:12:44 UTC] PHP   5. do_action() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-settings.php:523
+[04-Dec-2019 20:12:44 UTC] PHP   6. WP_Hook->do_action() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\plugin.php:478
+[04-Dec-2019 20:12:44 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php:312
