@@ -137,3 +137,132 @@ Stack trace:
 [04-Dec-2019 20:12:44 UTC] PHP   5. do_action() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-settings.php:523
 [04-Dec-2019 20:12:44 UTC] PHP   6. WP_Hook->do_action() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\plugin.php:478
 [04-Dec-2019 20:12:44 UTC] PHP   7. WP_Hook->apply_filters() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php:312
+[06-Dec-2019 16:55:53 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ')' in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\front-page.php on line 22
+[06-Dec-2019 16:59:59 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/09/2020) at position 0 (1): Unexpected character in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\front-page.php:31
+Stack trace:
+#0 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\front-page.php(31): DateTime->__construct('19/09/2020')
+#1 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\solid\\...')
+#2 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-blog-header.php(19): require_once('C:\\Users\\solid\\...')
+#3 C:\Users\solid\Local Sites\wordpress-template\app\public\index.php(17): require('C:\\Users\\solid\\...')
+#4 {main}
+  thrown in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\front-page.php on line 31
+[06-Dec-2019 17:00:23 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (19/09/2020) at position 0 (1): Unexpected character in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\front-page.php:31
+Stack trace:
+#0 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\front-page.php(31): DateTime->__construct('19/09/2020')
+#1 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\solid\\...')
+#2 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-blog-header.php(19): require_once('C:\\Users\\solid\\...')
+#3 C:\Users\solid\Local Sites\wordpress-template\app\public\index.php(17): require('C:\\Users\\solid\\...')
+#4 {main}
+  thrown in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\front-page.php on line 31
+[06-Dec-2019 17:00:50 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (25/09/2020) at position 0 (2): Unexpected character in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\front-page.php:31
+Stack trace:
+#0 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\front-page.php(31): DateTime->__construct('25/09/2020')
+#1 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\solid\\...')
+#2 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-blog-header.php(19): require_once('C:\\Users\\solid\\...')
+#3 C:\Users\solid\Local Sites\wordpress-template\app\public\index.php(17): require('C:\\Users\\solid\\...')
+#4 {main}
+  thrown in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\front-page.php on line 31
+[06-Dec-2019 17:00:59 UTC] PHP Fatal error:  Uncaught Exception: DateTime::__construct(): Failed to parse time string (25/09/2020) at position 0 (2): Unexpected character in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\front-page.php:31
+Stack trace:
+#0 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\front-page.php(31): DateTime->__construct('25/09/2020')
+#1 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\solid\\...')
+#2 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-blog-header.php(19): require_once('C:\\Users\\solid\\...')
+#3 C:\Users\solid\Local Sites\wordpress-template\app\public\index.php(17): require('C:\\Users\\solid\\...')
+#4 {main}
+  thrown in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\front-page.php on line 31
+[06-Dec-2019 18:24:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php on line 288
+[06-Dec-2019 18:24:04 UTC] PHP Stack trace:
+[06-Dec-2019 18:24:04 UTC] PHP   1. {main}() C:\Users\solid\Local Sites\wordpress-template\app\public\index.php:0
+[06-Dec-2019 18:24:04 UTC] PHP   2. require() C:\Users\solid\Local Sites\wordpress-template\app\public\index.php:17
+[06-Dec-2019 18:24:04 UTC] PHP   3. wp() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-blog-header.php:16
+[06-Dec-2019 18:24:04 UTC] PHP   4. WP->main() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\functions.php:1250
+[06-Dec-2019 18:24:04 UTC] PHP   5. WP->query_posts() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp.php:731
+[06-Dec-2019 18:24:04 UTC] PHP   6. WP_Query->query() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp.php:614
+[06-Dec-2019 18:24:04 UTC] PHP   7. WP_Query->get_posts() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-query.php:3413
+[06-Dec-2019 18:24:04 UTC] PHP   8. do_action_ref_array() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-query.php:1757
+[06-Dec-2019 18:24:04 UTC] PHP   9. WP_Hook->do_action() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\plugin.php:544
+[06-Dec-2019 18:24:04 UTC] PHP  10. WP_Hook->apply_filters() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php:312
+[06-Dec-2019 18:24:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php on line 288
+[06-Dec-2019 18:24:04 UTC] PHP Stack trace:
+[06-Dec-2019 18:24:04 UTC] PHP   1. {main}() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\post.php:0
+[06-Dec-2019 18:24:04 UTC] PHP   2. include() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\post.php:198
+[06-Dec-2019 18:24:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php on line 288
+[06-Dec-2019 18:24:04 UTC] PHP   3. wp_get_post_autosave() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\edit-form-advanced.php:238
+[06-Dec-2019 18:24:04 UTC] PHP Stack trace:
+[06-Dec-2019 18:24:04 UTC] PHP   4. wp_get_post_revisions() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\revision.php:235
+[06-Dec-2019 18:24:04 UTC] PHP   1. {main}() C:\Users\solid\Local Sites\wordpress-template\app\public\index.php:0
+[06-Dec-2019 18:24:04 UTC] PHP   5. get_children() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\revision.php:492
+[06-Dec-2019 18:24:04 UTC] PHP   2. require() C:\Users\solid\Local Sites\wordpress-template\app\public\index.php:17
+[06-Dec-2019 18:24:04 UTC] PHP   6. get_posts() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\post.php:661
+[06-Dec-2019 18:24:04 UTC] PHP   3. require_once() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-blog-header.php:19
+[06-Dec-2019 18:24:04 UTC] PHP   7. WP_Query->query() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\post.php:2039
+[06-Dec-2019 18:24:04 UTC] PHP   4. include() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\template-loader.php:98
+[06-Dec-2019 18:24:04 UTC] PHP   8. WP_Query->get_posts() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-query.php:3413
+[06-Dec-2019 18:24:04 UTC] PHP   5. get_field() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\archive-event.php:21
+[06-Dec-2019 18:24:04 UTC] PHP   9. do_action_ref_array() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-query.php:1757
+[06-Dec-2019 18:24:04 UTC] PHP   6. acf_maybe_get_field() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\plugins\advanced-custom-fields\includes\api\api-template.php:27
+[06-Dec-2019 18:24:04 UTC] PHP  10. WP_Hook->do_action() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\plugin.php:544
+[06-Dec-2019 18:24:04 UTC] PHP   7. acf_get_meta_field() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\plugins\advanced-custom-fields\includes\api\api-template.php:177
+[06-Dec-2019 18:24:04 UTC] PHP  11. WP_Hook->apply_filters() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php:312
+[06-Dec-2019 18:24:04 UTC] PHP   8. acf_get_field() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-meta-functions.php:366
+[06-Dec-2019 18:24:04 UTC] PHP   9. acf_get_raw_field() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php:36
+[06-Dec-2019 18:24:04 UTC] PHP  10. acf_get_field_post() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php:85
+[06-Dec-2019 18:24:04 UTC] PHP  11. get_posts() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php:148
+[06-Dec-2019 18:24:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php on line 288
+[06-Dec-2019 18:24:04 UTC] PHP  12. WP_Query->query() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\post.php:2039
+[06-Dec-2019 18:24:04 UTC] PHP Stack trace:
+[06-Dec-2019 18:24:04 UTC] PHP  13. WP_Query->get_posts() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-query.php:3413
+[06-Dec-2019 18:24:04 UTC] PHP   1. {main}() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\post.php:0
+[06-Dec-2019 18:24:04 UTC] PHP  14. do_action_ref_array() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-query.php:1757
+[06-Dec-2019 18:24:04 UTC] PHP   2. include() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\post.php:198
+[06-Dec-2019 18:24:04 UTC] PHP  15. WP_Hook->do_action() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\plugin.php:544
+[06-Dec-2019 18:24:04 UTC] PHP   3. register_and_do_post_meta_boxes() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\edit-form-advanced.php:269
+[06-Dec-2019 18:24:04 UTC] PHP  16. WP_Hook->apply_filters() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php:312
+[06-Dec-2019 18:24:04 UTC] PHP   4. do_action() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\includes\meta-boxes.php:1549
+[06-Dec-2019 18:24:04 UTC] PHP   5. WP_Hook->do_action() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\plugin.php:478
+[06-Dec-2019 18:24:04 UTC] PHP   6. WP_Hook->apply_filters() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php:312
+[06-Dec-2019 18:24:04 UTC] PHP   7. ACF_Form_Post->add_meta_boxes() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php:288
+[06-Dec-2019 18:24:04 UTC] PHP   8. acf_get_field_groups() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\plugins\advanced-custom-fields\includes\forms\form-post.php:86
+[06-Dec-2019 18:24:04 UTC] PHP   9. acf_get_raw_field_groups() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-group-functions.php:318
+[06-Dec-2019 18:24:04 UTC] PHP  10. get_posts() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-group-functions.php:364
+[06-Dec-2019 18:24:04 UTC] PHP  11. WP_Query->query() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\post.php:2039
+[06-Dec-2019 18:24:04 UTC] PHP  12. WP_Query->get_posts() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-query.php:3413
+[06-Dec-2019 18:24:04 UTC] PHP  13. do_action_ref_array() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-query.php:1757
+[06-Dec-2019 18:24:04 UTC] PHP  14. WP_Hook->do_action() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\plugin.php:544
+[06-Dec-2019 18:24:04 UTC] PHP  15. WP_Hook->apply_filters() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php:312
+[06-Dec-2019 18:24:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php:288) in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\admin-header.php on line 9
+[06-Dec-2019 18:24:04 UTC] PHP Stack trace:
+[06-Dec-2019 18:24:04 UTC] PHP   1. {main}() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\post.php:0
+[06-Dec-2019 18:24:04 UTC] PHP   2. include() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\post.php:198
+[06-Dec-2019 18:24:04 UTC] PHP   3. require_once() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\edit-form-advanced.php:419
+[06-Dec-2019 18:24:04 UTC] PHP   4. header() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\admin-header.php:9
+[06-Dec-2019 18:24:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php:288) in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\option.php on line 958
+[06-Dec-2019 18:24:04 UTC] PHP Stack trace:
+[06-Dec-2019 18:24:04 UTC] PHP   1. {main}() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\post.php:0
+[06-Dec-2019 18:24:04 UTC] PHP   2. include() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\post.php:198
+[06-Dec-2019 18:24:04 UTC] PHP   3. require_once() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\edit-form-advanced.php:419
+[06-Dec-2019 18:24:04 UTC] PHP   4. wp_user_settings() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\admin-header.php:70
+[06-Dec-2019 18:24:04 UTC] PHP   5. setcookie() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\option.php:958
+[06-Dec-2019 18:24:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php:288) in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\option.php on line 959
+[06-Dec-2019 18:24:04 UTC] PHP Stack trace:
+[06-Dec-2019 18:24:04 UTC] PHP   1. {main}() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\post.php:0
+[06-Dec-2019 18:24:04 UTC] PHP   2. include() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\post.php:198
+[06-Dec-2019 18:24:04 UTC] PHP   3. require_once() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\edit-form-advanced.php:419
+[06-Dec-2019 18:24:04 UTC] PHP   4. wp_user_settings() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\admin-header.php:70
+[06-Dec-2019 18:24:04 UTC] PHP   5. setcookie() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\option.php:959
+[06-Dec-2019 18:24:04 UTC] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, function 'university_adjust_queries' not found or invalid function name in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php on line 288
+[06-Dec-2019 18:24:04 UTC] PHP Stack trace:
+[06-Dec-2019 18:24:04 UTC] PHP   1. {main}() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\post.php:0
+[06-Dec-2019 18:24:04 UTC] PHP   2. include() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\post.php:198
+[06-Dec-2019 18:24:04 UTC] PHP   3. do_meta_boxes() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\edit-form-advanced.php:677
+[06-Dec-2019 18:24:04 UTC] PHP   4. ACF_Form_Post->render_meta_box() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\includes\template.php:1343
+[06-Dec-2019 18:24:04 UTC] PHP   5. acf_get_fields() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\plugins\advanced-custom-fields\includes\forms\form-post.php:207
+[06-Dec-2019 18:24:04 UTC] PHP   6. acf_get_raw_fields() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php:361
+[06-Dec-2019 18:24:04 UTC] PHP   7. get_posts() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\plugins\advanced-custom-fields\includes\acf-field-functions.php:401
+[06-Dec-2019 18:24:04 UTC] PHP   8. WP_Query->query() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\post.php:2039
+[06-Dec-2019 18:24:04 UTC] PHP   9. WP_Query->get_posts() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-query.php:3413
+[06-Dec-2019 18:24:04 UTC] PHP  10. do_action_ref_array() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-query.php:1757
+[06-Dec-2019 18:24:04 UTC] PHP  11. WP_Hook->do_action() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\plugin.php:544
+[06-Dec-2019 18:24:04 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php:312
+[06-Dec-2019 18:27:35 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\functions.php on line 18
+[06-Dec-2019 18:27:35 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\functions.php on line 18
