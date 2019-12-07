@@ -266,3 +266,21 @@ Stack trace:
 [06-Dec-2019 18:24:04 UTC] PHP  12. WP_Hook->apply_filters() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\class-wp-hook.php:312
 [06-Dec-2019 18:27:35 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\functions.php on line 18
 [06-Dec-2019 18:27:35 UTC] PHP Parse error:  syntax error, unexpected ')' in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\functions.php on line 18
+[06-Dec-2019 19:28:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_page_() in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\header.php:21
+Stack trace:
+#0 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\template.php(722): require_once()
+#1 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\template.php(671): load_template('C:\\Users\\solid\\...', true)
+#2 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\front-page.php(1): get_header()
+#4 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\solid\\...')
+#5 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-blog-header.php(19): require_once('C:\\Users\\solid\\...')
+#6 C:\Users\solid\Local Sites\wordpress-template\app\public\index.php(17): require('C:\\Users\\sol in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\header.php on line 21
+[06-Dec-2019 19:28:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function is_page_() in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\header.php:21
+Stack trace:
+#0 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\template.php(722): require_once()
+#1 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\template.php(671): load_template('C:\\Users\\solid\\...', true)
+#2 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\general-template.php(41): locate_template(Array, true)
+#3 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\page-past-events.php(2): get_header()
+#4 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\solid\\...')
+#5 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-blog-header.php(19): require_once('C:\\Users\\solid\\...')
+#6 C:\Users\solid\Local Sites\wordpress-template\app\public\index.php(17): require('C:\\User in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\header.php on line 21
