@@ -318,3 +318,12 @@ Stack trace:
 #2 C:\Users\solid\Local Sites\wordpress-template\app\public\index.php(17): require('C:\\Users\\solid\\...')
 #3 {main}
   thrown in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\single-program.php on line 44
+[09-Dec-2019 21:54:52 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\functions.php on line 14
+[09-Dec-2019 21:54:52 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\functions.php on line 14
+[09-Dec-2019 21:54:52 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\functions.php on line 14
+[09-Dec-2019 22:00:25 UTC] PHP Warning:  Use of undefined constant the_post_thumbnail - assumed 'the_post_thumbnail' (this will throw an Error in a future version of PHP) in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\single-professor.php on line 20
+[09-Dec-2019 22:00:25 UTC] PHP Stack trace:
+[09-Dec-2019 22:00:25 UTC] PHP   1. {main}() C:\Users\solid\Local Sites\wordpress-template\app\public\index.php:0
+[09-Dec-2019 22:00:25 UTC] PHP   2. require() C:\Users\solid\Local Sites\wordpress-template\app\public\index.php:17
+[09-Dec-2019 22:00:25 UTC] PHP   3. require_once() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-blog-header.php:19
+[09-Dec-2019 22:00:25 UTC] PHP   4. include() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\template-loader.php:98
