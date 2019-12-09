@@ -284,3 +284,5 @@ Stack trace:
 #4 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\solid\\...')
 #5 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-blog-header.php(19): require_once('C:\\Users\\solid\\...')
 #6 C:\Users\solid\Local Sites\wordpress-template\app\public\index.php(17): require('C:\\User in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\header.php on line 21
+[09-Dec-2019 15:47:39 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\single-event.php on line 27
+[09-Dec-2019 15:48:16 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\single-event.php on line 27
