@@ -286,3 +286,7 @@ Stack trace:
 #6 C:\Users\solid\Local Sites\wordpress-template\app\public\index.php(17): require('C:\\User in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\header.php on line 21
 [09-Dec-2019 15:47:39 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\single-event.php on line 27
 [09-Dec-2019 15:48:16 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\single-event.php on line 27
+[09-Dec-2019 16:21:11 UTC] PHP Parse error:  syntax error, unexpected 'while' (T_WHILE), expecting ',' or ';' in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\single-program.php on line 49
+[09-Dec-2019 16:22:04 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\single-program.php on line 48
+[09-Dec-2019 16:26:09 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\header.php on line 20
+[09-Dec-2019 16:26:20 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\header.php on line 20
