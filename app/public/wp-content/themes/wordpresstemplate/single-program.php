@@ -22,20 +22,13 @@ while (have_posts()) {
                 ?>
         </div>
         <?php
-            $today = date('Ymd');
-            $homepageEvents = new WP_Query(array(
-                'posts_per_page' => 2,
-                'post_type' => 'event',
-                'meta_key' => 'event_date',
-                'orderby' => 'meta_value_num',
+
+            $relatedProfessors = new WP_Query(array(
+                'posts_per_page' => -1,
+                'post_type' => 'professor',
+                'orderby' => 'title',
                 'order' => 'ASC',
                 'meta_query' => array(
-                    array(
-                        'key' => 'event_date',
-                        'compare' => '>=',
-                        'value' => $today,
-                        'type' => 'numeric'
-                    ),
                     array(
                         'key' => 'related_programs',
                         'compare' => 'LIKE',
@@ -44,12 +37,46 @@ while (have_posts()) {
                 )
             ));
 
-            if ($homepageEvents->have_posts()) {
+            if ($relatedProfessors->have_posts()) {
                 echo '<h2 class="section-break">';
-                echo '<h2 class="headline headline--medium">Upcoming ' . get_the_title() . ' Events</h2>';
+                echo '<h2 class="headline headline--medium">' . get_the_title() . ' Professors</h2>';
 
-                while ($homepageEvents->have_posts()) {
-                    $homepageEvents->the_post(); ?>
+                while ($relatedProfessors->have_posts()) {
+                    $relatedProfessors->the_post(); ?>
+                    <li><a href="<?php the_permalink(); ?>"><?php the_title();?></a></li>
+            <?php }
+                }
+
+                wp_reset_postdata();
+
+                $today = date('Ymd');
+                $homepageEvents = new WP_Query(array(
+                    'posts_per_page' => 2,
+                    'post_type' => 'event',
+                    'meta_key' => 'event_date',
+                    'orderby' => 'meta_value_num',
+                    'order' => 'ASC',
+                    'meta_query' => array(
+                        array(
+                            'key' => 'event_date',
+                            'compare' => '>=',
+                            'value' => $today,
+                            'type' => 'numeric'
+                        ),
+                        array(
+                            'key' => 'related_programs',
+                            'compare' => 'LIKE',
+                            'value' => '"' . get_the_ID() . '"'
+                        )
+                    )
+                ));
+
+                if ($homepageEvents->have_posts()) {
+                    echo '<h2 class="section-break">';
+                    echo '<h2 class="headline headline--medium">Upcoming ' . get_the_title() . ' Events</h2>';
+
+                    while ($homepageEvents->have_posts()) {
+                        $homepageEvents->the_post(); ?>
                 <div class="event-summary">
                     <a class="event-summary__date t-center" href="#">
                         <span class="event-summary__month"><?php
