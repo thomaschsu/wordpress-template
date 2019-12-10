@@ -327,3 +327,13 @@ Stack trace:
 [09-Dec-2019 22:00:25 UTC] PHP   2. require() C:\Users\solid\Local Sites\wordpress-template\app\public\index.php:17
 [09-Dec-2019 22:00:25 UTC] PHP   3. require_once() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-blog-header.php:19
 [09-Dec-2019 22:00:25 UTC] PHP   4. include() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\template-loader.php:98
+[10-Dec-2019 16:17:54 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\functions.php on line 15
+[10-Dec-2019 16:18:25 UTC] PHP Parse error:  syntax error, unexpected '}' in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\functions.php on line 15
+[10-Dec-2019 16:39:50 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function pageBanner(), 0 passed in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\page.php on line 5 and exactly 1 expected in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\functions.php:3
+Stack trace:
+#0 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\page.php(5): pageBanner()
+#1 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\template-loader.php(98): include('C:\\Users\\solid\\...')
+#2 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-blog-header.php(19): require_once('C:\\Users\\solid\\...')
+#3 C:\Users\solid\Local Sites\wordpress-template\app\public\index.php(17): require('C:\\Users\\solid\\...')
+#4 {main}
+  thrown in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\functions.php on line 3
