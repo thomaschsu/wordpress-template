@@ -337,3 +337,17 @@ Stack trace:
 #3 C:\Users\solid\Local Sites\wordpress-template\app\public\index.php(17): require('C:\\Users\\solid\\...')
 #4 {main}
   thrown in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\functions.php on line 3
+[11-Dec-2019 20:35:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function page_banner() in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\archive-program.php:3
+Stack trace:
+#0 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-blog-header.php(19): require_once('C:\\Users\\solid\\...')
+#2 C:\Users\solid\Local Sites\wordpress-template\app\public\index.php(17): require('C:\\Users\\solid\\...')
+#3 {main}
+  thrown in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\archive-program.php on line 3
+[11-Dec-2019 20:35:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function page_banner() in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\archive-program.php:3
+Stack trace:
+#0 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\template-loader.php(98): include()
+#1 C:\Users\solid\Local Sites\wordpress-template\app\public\wp-blog-header.php(19): require_once('C:\\Users\\solid\\...')
+#2 C:\Users\solid\Local Sites\wordpress-template\app\public\index.php(17): require('C:\\Users\\solid\\...')
+#3 {main}
+  thrown in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\archive-program.php on line 3
