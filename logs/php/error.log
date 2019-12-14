@@ -426,3 +426,4 @@ Stack trace:
 [13-Dec-2019 01:15:21 UTC] PHP  15. spl_autoload_call() phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/utils-wp.php:138
 [13-Dec-2019 01:15:21 UTC] PHP  16. Composer\Autoload\ClassLoader->loadClass() phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/utils-wp.php:138
 [13-Dec-2019 01:15:21 UTC] PHP  17. Composer\Autoload\includeFile() phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/composer/ClassLoader.php:322
+[14-Dec-2019 00:43:23 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\single-program.php on line 92
