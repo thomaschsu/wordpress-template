@@ -1,11 +1,7 @@
-document.querySelector('.js-search-trigger').addEventListener('click', () => {
-    console.log(`OPENED!!!`)
-})
-
 class Search {
     // 1. describe and create/initiate our object
     constructor() {
-        this.openButton = document.querySelector('.js-search-trigger');
+        this.openButton = document.querySelector('.search-trigger');
         this.closeButton = document.querySelector('.search-overlay__close');
         this.searchOverlay = document.querySelector('.search-overlay');
         this.events();
@@ -19,7 +15,7 @@ class Search {
 
     // 3. methods (function, action...)
     openOverlay() {
-        console.log(`Opened!`)
+        this.searchOverlay.classList.add('search-overlay--active');
     }
 
     closeOverlay() {
