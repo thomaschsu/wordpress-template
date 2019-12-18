@@ -4,8 +4,10 @@ class Search {
         this.openButton = document.querySelector('.search-trigger');
         this.closeButton = document.querySelector('.search-overlay__close');
         this.searchOverlay = document.querySelector('.search-overlay');
+        this.searchTerm = document.querySelector('#search-term');
         this.events();
         this.isOverlayOpen = false;
+        this.typingTimer;
     }
 
     // 2. events
@@ -13,6 +15,7 @@ class Search {
         this.openButton.addEventListener('click', this.openOverlay.bind(this));
         this.closeButton.addEventListener('click', this.closeOverlay.bind(this));
         document.addEventListener('keydown', this.keyPressDispatcher.bind(this));
+        this.searchTerm.addEventListener('keydown', this.typingLogic.bind(this));
     }
 
     // 3. methods (function, action...)
@@ -35,6 +38,13 @@ class Search {
         if (e.keyCode === 27 && this.isOverlayOpen) {
             this.closeOverlay();
         }
+    }
+
+    typingLogic() {
+        clearTimeout(this.typingTimer);
+        this.typingTimer = setTimeout(() => {
+            console.log(`This is a timeouttest`)
+        }, 1000)
     }
 }
 
