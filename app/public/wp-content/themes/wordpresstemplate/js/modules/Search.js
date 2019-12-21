@@ -5,8 +5,11 @@ class Search {
         this.closeButton = document.querySelector('.search-overlay__close');
         this.searchOverlay = document.querySelector('.search-overlay');
         this.searchTerm = document.querySelector('#search-term');
+        this.resultsDiv = document.querySelector('#search-overlay__results');
         this.events();
         this.isOverlayOpen = false;
+        this.isSpinnerVisible = false;
+        this.previousValue;
         this.typingTimer;
     }
 
@@ -15,7 +18,7 @@ class Search {
         this.openButton.addEventListener('click', this.openOverlay.bind(this));
         this.closeButton.addEventListener('click', this.closeOverlay.bind(this));
         document.addEventListener('keydown', this.keyPressDispatcher.bind(this));
-        this.searchTerm.addEventListener('keydown', this.typingLogic.bind(this));
+        this.searchTerm.addEventListener('keyup', this.typingLogic.bind(this));
     }
 
     // 3. methods (function, action...)
@@ -32,7 +35,7 @@ class Search {
     }
 
     keyPressDispatcher(e) {
-        if (e.keyCode === 83 && !this.isOverlayOpen) {
+        if (e.keyCode === 83 && !this.isOverlayOpen && document.querySelector('input') !== document.activeElement && document.querySelector('textarea') !== document.activeElement) {
             this.openOverlay();
         }
         if (e.keyCode === 27 && this.isOverlayOpen) {
@@ -41,10 +44,29 @@ class Search {
     }
 
     typingLogic() {
-        clearTimeout(this.typingTimer);
-        this.typingTimer = setTimeout(() => {
-            console.log(`This is a timeouttest`)
-        }, 1000)
+        if (this.searchTerm.value != this.previousValue) {
+            clearTimeout(this.typingTimer);
+
+            if (this.searchTerm.value) {
+                if (!this.isSpinnerVisible) {
+                    this.resultsDiv.innerHTML = '<div class="spinner-loader"></div>'
+                    this.isSpinnerVisible = true;
+                }
+                this.typingTimer = setTimeout(this.getResults.bind(this), 2000);
+            } else {
+                this.resultsDiv.innerHTML = '';
+                this.isSpinnerVisible = false;
+            }
+
+
+        }
+
+        this.previousValue = this.searchTerm.value;
+    }
+
+    getResults() {
+        this.resultsDiv.innerHTML = 'Imagine real search results here';
+        this.isSpinnerVisible = false;
     }
 }
 
