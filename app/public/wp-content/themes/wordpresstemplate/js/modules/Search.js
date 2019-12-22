@@ -65,8 +65,10 @@ class Search {
     }
 
     getResults() {
-        this.resultsDiv.innerHTML = 'Imagine real search results here';
-        this.isSpinnerVisible = false;
+        fetch(`http://localhost:3000/wp-json/wp/v2/posts?search=${this.searchTerm.value}`, {
+            method: 'get'
+        }).then((response => response.json()))
+        .then(data => console.log(data[0]));
     }
 }
 

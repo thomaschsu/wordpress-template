@@ -427,3 +427,43 @@ Stack trace:
 [13-Dec-2019 01:15:21 UTC] PHP  16. Composer\Autoload\ClassLoader->loadClass() phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/utils-wp.php:138
 [13-Dec-2019 01:15:21 UTC] PHP  17. Composer\Autoload\includeFile() phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/composer/ClassLoader.php:322
 [14-Dec-2019 00:43:23 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-content\themes\wordpresstemplate\single-program.php on line 92
+[20-Dec-2019 22:13:55 UTC] PHP Warning:  Declaration of WP_CLI\UpgraderSkin::feedback($string) should be compatible with WP_Upgrader_Skin::feedback($string, ...$args) in phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/UpgraderSkin.php on line 0
+[20-Dec-2019 22:13:55 UTC] PHP Stack trace:
+[20-Dec-2019 22:13:55 UTC] PHP   1. {main}() C:\Users\solid\AppData\Local\Programs\Local\resources\extraResources\site-binaries-win32\wp-cli\wp-cli.phar:0
+[20-Dec-2019 22:13:55 UTC] PHP   2. include() C:\Users\solid\AppData\Local\Programs\Local\resources\extraResources\site-binaries-win32\wp-cli\wp-cli.phar:4
+[20-Dec-2019 22:13:55 UTC] PHP   3. include() phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[20-Dec-2019 22:13:55 UTC] PHP   4. WP_CLI\bootstrap() phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[20-Dec-2019 22:13:55 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process() phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:74
+[20-Dec-2019 22:13:55 UTC] PHP   6. WP_CLI\Runner->start() phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:23
+[20-Dec-2019 22:13:55 UTC] PHP   7. WP_CLI\Runner->run_command_and_exit() phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1132
+[20-Dec-2019 22:13:55 UTC] PHP   8. WP_CLI\Runner->run_command() phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:394
+[20-Dec-2019 22:13:55 UTC] PHP   9. WP_CLI\Dispatcher\Subcommand->invoke() phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:371
+[20-Dec-2019 22:13:55 UTC] PHP  10. call_user_func:{phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:451}() phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:451
+[20-Dec-2019 22:13:55 UTC] PHP  11. WP_CLI\Dispatcher\CommandFactory::WP_CLI\Dispatcher\{closure:phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:95-102}() phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/Subcommand.php:451
+[20-Dec-2019 22:13:55 UTC] PHP  12. call_user_func:{phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:98}() phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:98
+[20-Dec-2019 22:13:55 UTC] PHP  13. Core_Command->update() phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Dispatcher/CommandFactory.php:98
+[20-Dec-2019 22:13:55 UTC] PHP  14. WP_CLI\Utils\get_upgrader() phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/wp-cli/core-command/src/Core_Command.php:1111
+[20-Dec-2019 22:13:55 UTC] PHP  15. spl_autoload_call() phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/utils-wp.php:138
+[20-Dec-2019 22:13:55 UTC] PHP  16. Composer\Autoload\ClassLoader->loadClass() phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/utils-wp.php:138
+[20-Dec-2019 22:13:55 UTC] PHP  17. Composer\Autoload\includeFile() phar://C:/Users/solid/AppData/Local/Programs/Local/resources/extraResources/site-binaries-win32/wp-cli/wp-cli.phar/vendor/composer/ClassLoader.php:322
+[20-Dec-2019 22:14:52 UTC] PHP Warning:  fopen(C:\Users\solid\Local Sites\wordpress-template\app\public/wp-content/plugins/crop-thumbnails/crop-thumbnails.php): failed to open stream: No such file or directory in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\functions.php on line 5782
+[20-Dec-2019 22:14:52 UTC] PHP Stack trace:
+[20-Dec-2019 22:14:52 UTC] PHP   1. {main}() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\update.php:0
+[20-Dec-2019 22:14:52 UTC] PHP   2. Plugin_Upgrader->bulk_upgrade() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\update.php:47
+[20-Dec-2019 22:14:52 UTC] PHP   3. get_plugin_data() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\includes\class-plugin-upgrader.php:266
+[20-Dec-2019 22:14:52 UTC] PHP   4. get_file_data() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\includes\plugin.php:86
+[20-Dec-2019 22:14:52 UTC] PHP   5. fopen() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\functions.php:5782
+[20-Dec-2019 22:14:52 UTC] PHP Warning:  fread() expects parameter 1 to be resource, bool given in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\functions.php on line 5785
+[20-Dec-2019 22:14:53 UTC] PHP Stack trace:
+[20-Dec-2019 22:14:53 UTC] PHP   1. {main}() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\update.php:0
+[20-Dec-2019 22:14:53 UTC] PHP   2. Plugin_Upgrader->bulk_upgrade() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\update.php:47
+[20-Dec-2019 22:14:53 UTC] PHP   3. get_plugin_data() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\includes\class-plugin-upgrader.php:266
+[20-Dec-2019 22:14:53 UTC] PHP   4. get_file_data() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\includes\plugin.php:86
+[20-Dec-2019 22:14:53 UTC] PHP   5. fread() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\functions.php:5785
+[20-Dec-2019 22:14:53 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, bool given in C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\functions.php on line 5788
+[20-Dec-2019 22:14:53 UTC] PHP Stack trace:
+[20-Dec-2019 22:14:53 UTC] PHP   1. {main}() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\update.php:0
+[20-Dec-2019 22:14:53 UTC] PHP   2. Plugin_Upgrader->bulk_upgrade() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\update.php:47
+[20-Dec-2019 22:14:53 UTC] PHP   3. get_plugin_data() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\includes\class-plugin-upgrader.php:266
+[20-Dec-2019 22:14:53 UTC] PHP   4. get_file_data() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-admin\includes\plugin.php:86
+[20-Dec-2019 22:14:53 UTC] PHP   5. fclose() C:\Users\solid\Local Sites\wordpress-template\app\public\wp-includes\functions.php:5788
